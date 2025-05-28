@@ -41,6 +41,6 @@ This is a full-stack single-page application (SPA) built with React.js frontend 
 
 ### Clone the Repository
 
-```bash
+bash
 git clone https://github.com/Harman-shergill/student-searchbar.git
 cd student-searchbar
