@@ -16,7 +16,7 @@ function App() {
     if (value.length >= 3) {
       if (typingTimeout) clearTimeout(typingTimeout);
       setTypingTimeout(setTimeout(() => {
-        axios.get(`http://localhost:5000/students?q=${value}`)
+        axios.get(`https://student-search-backend.vercel.app/students?q=${value}`)
           .then(res => {
             setSuggestions(res.data);
           });
